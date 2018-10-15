@@ -4,6 +4,7 @@ $show-home-image : true;
 $home-image : url('../img/back.jpg');
 $background-opacity : 0.9; 
 
+
 @mixin easeOut{
     transition: all 0.5s ease-out;
 }
@@ -26,6 +27,8 @@ $background-opacity : 0.9;
         }
     }
 }
+
+@import 'menu';
 
 * {
     box-sizing: border-box;
